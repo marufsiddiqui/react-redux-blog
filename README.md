@@ -4,7 +4,7 @@
 https://protected-escarpment-79486.herokuapp.com/
 
 #Blogs
-🎉 If you like this post, please share it on Twitter (<a href="https://twitter.com/rajaraodv">@rajaraodv</a>)🎉
+🎉 If you like any of the posts, please share it on Twitter (<a href="https://twitter.com/rajaraodv">@rajaraodv</a>)🎉
 
 1. <a href="https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.s7zsgq3u1" target="_blank">Step by Step Guide To Building React Redux Apps</a>
 2.  <a href="https://medium.com/@rajaraodv/a-guide-for-building-a-react-redux-crud-app-7fe0b8943d0f#.g99gruhdz" target="_blank">A Guide For Building A React Redux CRUD App (3-page app)</a>
@@ -12,6 +12,9 @@ https://protected-escarpment-79486.herokuapp.com/
 4.  <a href="https://medium.com/@rajaraodv/adding-a-robust-form-validation-to-react-redux-apps-616ca240c124#.jq013tkr1" target="_blank">Adding A Robust Form Validation To React Redux Apps</a>
 5.  <a href="https://medium.com/@rajaraodv/securing-react-redux-apps-with-jwt-tokens-fcfe81356ea0#.xci6o9s6w" target="_blank">Securing React Redux Apps With JWT Tokens</a>
 6.  <a href="https://medium.com/@rajaraodv/handling-transactional-emails-in-react-redux-apps-8b1134748f76#.a24nenmnt" target="_blank">Handling Transactional Emails In React Redux Apps</a>
+7.  <a href="https://medium.com/@rajaraodv/the-anatomy-of-a-react-redux-app-759282368c5a#.xufq689g0" target="_blank">The Anatomy Of A React Redux App</a>
+
+
 
 
 
@@ -42,7 +45,8 @@ NOTE: In order to send email via PostMark or Sendgrid, you need to verify sender
 1. In terminal 1, 
 	1. `export JWT_SECRET=somesecretstring` <-- This is used to generate JWT tokens.
 	2. `export POSTMARK_API_TOKEN=<getApiTokenFromWInPostmark>` <-- Email
-	3. run `npm start`. This runs the app server (Express). 
+	3. `export FROM_EMAIL=<yourFromEmailThatIsRegisteredInPostMark> <-- "From"-Email Address
+	4. run `npm start`. This runs the app server (Express). 
 2. In terminal 2, run: `npm run dev`. This runs the development server(webpack-dev-server).
 3. Open browser and go to: `localhost:8080`
 
